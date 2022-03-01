@@ -1,0 +1,43 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+:root {
+    --color-primary-light: #c69963;
+    --color-primary-dark: #b28451;
+    --color-gray-dark-1: #777;
+    --color-grey-light-2: #C69963;
+    --color-gray-dark-2: #2C3E50;
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .7)
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image:linear-gradient(rgba(rgba(118, 68, 222, 0.74), .93), rgba(rgba(120, 92, 189, 0.74), .93)), url(https://sun9-54.userapi.com/impg/vdxjrTBp9FRYB3aSdtE-LV-P-lUr0jzBM-7vGA/RAAibcD-o8M.jpg?size=1280x800&quality=95&sign=c11058bb670f5fb698b492cd8260d7ea&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-gray-dark-1);
+    min-height: 100vh;
+}
